@@ -1,103 +1,126 @@
-<!DOCTYPE html> 
+<!doctype html>
 <html lang="en">
-   <head>
-     <meta charset="UTF-8" /> 
-     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Gayathiri Ganesh | Software Trainer</title>
-       <link rel="stylesheet" href="style.css" /> 
-       <script src="port.js" defer></script> 
-       <link rel="icon" href="profile.jpg" type="image/png" /> 
-      </head> 
-      <body>
-         <header>
-          <div class="header-container">
-  <div class="myphoto">
-    <img
-      src="profile.jpg"
-      alt="Gayathiri Ganesh Profile Picture"
-      class="profile-img"
-    />
-    <div class="profession">Frontend Developer</div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gayathiri Ganesh portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="images/me.jpg">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="avatar">G</div>
+    <div class="name">Gayathiri</div>
   </div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-  
-</div>
+<main class="container" id="home">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="photo-wrap">
+      <div class="photo">
+        <img src="images/me.jpg" alt="Profile Photo">
+      </div>
+    </div>
+    <div class="intro">
+      <h4>Hi I'm <span class="typed-text">Software Trainer |</span></h4>
+      <h1>Gayathiri Ganesh</h1>
+      <p><strong>Software Trainer & Web Developer.</strong> I train students and professionals in programming and web technologies, and build responsive, interactive web applications using HTML, CSS, JavaScript, Python, and Java.</p>
 
-                <div class="intro-text"> 
-                  <h1><span class="brand-icon">G</span> Gayathiri Ganesh</h1>
-                   <p>Software Trainer | Web Developer</p> </div> </div> 
-                   <nav> 
-                    <ul> 
-                      <li><a href="#home">Home</a></li> 
-                      <li><a href="#about">About</a></li>
-                       <li><a href="#resume">Resume</a></li>
-                        <li><a href="#projects">Projects</a></li> 
-                        <li><a href="#skills">Skills</a></li>
-                         <li><a href="#contact">Contact</a></li> 
-                        </ul> </nav> 
-                      </header>
-                       <main> 
-    <section id="home"> 
-                        <h2>Welcome</h2> 
-                        <p>Hi, I'm Gayathiri — a dedicated Software Trainer and an aspiring Web Developer with a passion for empowering learners through hands-on, practical instruction.
+      <div class="btn-row">
+        <a class="btn primary" href="images/resume gayu.pdf" download>Download CV</a>
+        <a class="btn" href="#contact">Contact</a>
+      </div>
 
-With a strong background in teaching programming and software concepts, I bring enthusiasm, clarity, and real-world relevance to every session. Now, I’m expanding my journey into web development, where I apply my quick learning ability and strong work ethic to build modern, user-friendly web applications.
+    </div>
+  </section>
 
-Whether it's guiding students to grasp new technologies or crafting responsive websites, I'm committed to continuous learning and delivering impactful digital experiences.</p> </section>
-    <section id="about">
-                             <h2>About Me</h2>
-                              <p>I am a certified and passionate Software Trainer with experience in educating both students
-                                 and professionals in software development, programming languages, and tools. I’ve completed an Advanced 
-                                 Software Engineering course, equipping me with strong technical knowledge and the ability to deliver
-                                  industry-relevant training. I focus on practical learning, curriculum design, and mentoring with effective
-                                   communication skills.</p> </section>
-   <section id="resume"> 
-  <h2>Resume</h2>
-  <p>Detailed resume available upon request. Highlights include:</p> 
-  <ul>
-    <li>Experience training over 200 students in programming and web technologies.</li>
-    <li>Completed Advanced Software Engineer course.</li> 
-    <li>Strong foundation in core languages: HTML, CSS, JavaScript, Python, and Java.</li>
-    <li>Capable of designing and delivering full-stack web projects.</li>
-  </ul> 
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I am a certified Software Trainer with experience teaching programming languages and web development. I focus on practical, hands-on learning and mentoring students to build real-world projects.</p>
+  </section>
 
-  <!-- Resume Button -->
-  <a href="resume new 2025.pdf" target="_blank" download class="resume-button">Open / Download Resume</a>
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      
+      <!-- Project Card 1 -->
+      <div class="project-card">
+        <img src="images/mee_ban.jpg" alt="Meesho Clone">
+        <div class="project-info">
+          <h3>Meesho Website Clone</h3>
+          <p>Front-end clone of Meesho e-commerce platform with responsive layouts, search filters, and interactive UI built using HTML, CSS, and JavaScript.</p>
+          <a href="https://gayathiri-17.github.io/meesho_pro/" target="_blank" class="btn primary">Visit Project</a>
+        </div>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="project-card">
+        <img src="images/to_do.jpg" alt="To-Do List App">
+        <div class="project-info">
+          <h3>To-Do List App</h3>
+          <p>Interactive task manager application with add, edit, delete, and localStorage functionality using pure JavaScript.</p>
+          <a href="https://gayathiri-17.github.io/to-do-list-pro/" target="_blank" class="btn primary">Visit Project</a>
+        </div>
+      </div>
+
+      <!-- Project Card 3 -->
+      <div class="project-card">
+        <img src="images/hotel.webp" alt="Hotel Dishes Webiste">
+        <div class="project-info">
+          <h3>Perfect Hotel</h3>
+          <p>Front-end hotel website with responsive design, interactive menu, and booking features built using HTML, CSS, and JavaScript.
+Users can browse menu items, add dishes to a cart, and filter by categories.
+Designed for a smooth and engaging user experience on all devices.</p>
+          <a href="https://gayathiri-17.github.io/hotel-pro/" target="_blank" class="btn primary">Visit Project</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="about">
+  <h2>Contact</h2>
+
+  <p>Email: 
+    <a href="mailto:gayathiri.ganesh02@gmail.com">gayathiri.ganesh02@gmail.com</a><br>
+
+    Phone: +91 6383202436<br>
+
+    LinkedIn: 
+    <a href="https://www.linkedin.com/in/gayathiri-ganesh-771a38388" target="_blank">
+      linkedin.com/in/gayathiri-ganesh
+    </a><br>
+
+    GitHub: 
+    <a href="https://github.com/Gayathiri-17" target="_blank">
+      <i class="fab fa-github"></i> Gayathiri-17
+    </a><br>
+
+    Instagram:
+    <a href="https://www.instagram.com/_gayu__kutty_?igsh=MXVrbGltbzF2ZnBsNA==" target="_blank">
+      <i class="fab fa-instagram"></i> _gayu__kutty_
+    </a>
+  </p>
 </section>
 
-   <section id="projects">
-  <h2>Projects</h2>
-  <ul class="projects">
-    <li>
-      <strong>Meesho website</strong> – 
-      A web app to manage Meesho website records using HTML, CSS, and JavaScript.
-      <br>
-      🔗 <a href="file:///C:/Users/Manikandan%20DLM/myproject.html" target="_blank">View Project</a>
-    </li>
-    <li>
-      <strong>Portfolio Website</strong> – 
-      This personal portfolio site built with responsive design using HTML and CSS.
-      <br>
-      🔗 <a href="file:///C:/Users/Manikandan%20DLM/myportfolio.html" target="_blank">Visit Portfolio</a>
-    </li>
-    
-  </ul>
-</section>
+  <footer>
+    © <span id="year"></span> Gayathiri Ganesh · Software Trainer & Web Developer
+  </footer>
+</main>
 
-        <section id="skills"> 
-          <h2>Skills</h2>
-           <ul> 
-            <li>HTML, CSS, JavaScript</li> 
-          <li>Python, C, Java (Core)</li> 
-          <li>SQL, MySQL</li> 
-          <li>Training, Curriculum Design, Communication</li>
-         </ul> 
-        </section>
-           <section id="contact"> 
-            <h2>Contact</h2>
-             <p>Email: <a href="mailto:gayathiri.ganesh02@gmail.com">gayathiri.ganesh02@gmail.com</a></p>
-             <p>LinkedIn: <a href="https://www.linkedin.com/in/gayathiri-ganesh-771a38388" target="_blank"> linkedin.com/in/gayathiri-ganesh-771a38388 </a> </p> 
-             <p>contact: +91 6383202436</p> </section> </main> 
-             <footer> <p>&copy; 2025 Gayathiri Ganesh. All rights reserved.</p> </footer>
-</body> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+<script src="port.js"></script>
+</body>
 </html>
